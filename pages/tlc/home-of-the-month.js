@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BannerSection } from '../../components/common/banner';
 import { SubNavbar } from '../../components/common/subNavbar';
 import { TLC_NAVBAR } from '../../common/constants/tlc';
-import STYLES from '../../styles/tlc/homeOfTheMonth.module.scss';
+import STYLES from '../../styles/tlc/HomeOfTheMonth.module.scss';
 import { getFilteredHomePlans } from "../../common/services/home-plans";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import { readTextFile } from "../../common/webService";
